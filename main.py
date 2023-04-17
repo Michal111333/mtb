@@ -63,7 +63,7 @@ class LoginForm:
         conn.login(email_address, passcode)
         conn.sendmail(email_address,email_rec,Subject + content + footer)
         conn.quit()
-        print("email sent.")
+        print("email sent..")
         # yag = yagmail.SMTP({"mheyhou1@gmail.com": "Red Bull Details"}, "@Roksel3031")
         # yag = yagmail.SMTP({"totalsoccerwin@gmail.com": "Red Bull Details"}, "udryehcviotmoecz")
         # yag.send(to, subject, body)
